@@ -68,8 +68,16 @@ const antonietta = {
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
 
+
+
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
+
+function multiply (num1, num2) {
+  return num1 * num2;
+}
+
+console.log (multiply (3,3));
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
